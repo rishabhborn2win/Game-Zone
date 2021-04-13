@@ -4,7 +4,7 @@ import Home from "../screens/home";
 import ReviewDetails from "../screens/reviewDetails";
 
 const screens = {
-    Default: {
+    Home: {
         screen: Home
     },
     ReviewDetails: {
