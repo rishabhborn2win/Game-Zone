@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import Home from './screens/home';
 import * as Font from 'expo-font';
 import { AppLoading } from "expo-app-loading";
+import Navigator from './routes/drawer'
 
 const getFonts = () => {
   return Font.loadAsync({
@@ -16,7 +17,7 @@ export default function App() {
   const [fontsLoaded, setFontsLoaded] = useState("false");
   if(fontsLoaded){
   return (
-    <Home></Home>
+    <Navigator />
   );
   } else {
     return (
