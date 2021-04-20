@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
     headerImage: {
         width : 26,
         height: 26,
-        marginHorizontal: 10
     },
     headerTitle: {
         flexDirection: 'row'
